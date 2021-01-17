@@ -108,6 +108,7 @@ body {
 
 .OrcamentoBtt {
     margin-top: 20px;
+    margin-bottom: 10px;
     width: 80%;
     height: 40px;
     background-color: #ea531c;
@@ -127,4 +128,14 @@ body {
 .OrcamentoBtt:hover {
     opacity: .75;
     cursor: pointer;
+}
+
+.SemCompromisso {
+    color: white;
+    font-family: 'Century Gothic';
+    font-size: 10px;
+    font-weight: 50;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
