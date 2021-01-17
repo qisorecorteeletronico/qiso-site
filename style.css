@@ -230,3 +230,38 @@ body {
     font-weight: lighter;
     color: #878787;
 }
+
+.Boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.AboutBox {
+    margin-top:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.AboutBoxTitle {
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    font-weight: lighter;
+    color: #0A2337;
+}
+
+.AboutBoxText {
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: lighter;
+    color: #878787;
+}
