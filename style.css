@@ -161,6 +161,11 @@ body {
     margin-top: 30px;
 }
 
+.BttToPage:focus {
+    border-width: 0px;
+    outline: 0px
+}
+
 .BttToPage:hover {
     cursor: pointer
 }
