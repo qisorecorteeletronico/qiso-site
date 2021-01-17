@@ -54,6 +54,10 @@ body {
     margin-right: 5px;
 }
 
+.SocialIcon:hover {
+    cursor: pointer;
+}
+
 .Banner {
     z-index: 0;
     padding-top: 100px;
@@ -89,6 +93,7 @@ body {
     font-size: 50px;
     text-align: center;
     padding: 0px;
+    margin: 0px;
 }
 
 .Subtitle {
@@ -98,10 +103,11 @@ body {
     font-weight: 100;
     text-align: center;
     padding: 0px;
-    margin-top: -20px;
+    margin: 0px;
 }
 
 .OrcamentoBtt {
+    margin-top: 20px;
     width: 80%;
     height: 35px;
     background-color: #ea531c;
