@@ -4,7 +4,9 @@ body {
 }
 
 .Menu {
+    z-index: 999;
     background-color: #0A2337;
+    position: fixed;
     width: 100%;
     height: 100px;
     display: flex;
@@ -53,7 +55,50 @@ body {
 }
 
 .Banner {
+    z-index: 0;
+    padding-top: 100px;
     background-image: url('images/BANNER SITE DESKTOP.png');
+    background-repeat: no-repeat;
     width: 100%;
     height: 365px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Item1Banner {
+    width: 250px;
+    margin-right: 200px;
+}
+
+.Item2Banner {
+    width: 300px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px;
+}
+
+.Subtitle {
+    color: white;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0px;
+}
+
+.OrcamentoBtt {
+
 }
