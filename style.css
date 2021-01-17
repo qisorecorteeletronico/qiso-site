@@ -265,3 +265,88 @@ body {
     font-weight: lighter;
     color: #878787;
 }
+
+.PortBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.AboutPortBottom {
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: lighter;
+    color: #0A2337;
+    margin-right: 20px;
+}
+
+.SocialIconPortBottom {
+    width: 30px;
+    margin: 5px;
+}
+
+.ContatoText {
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: lighter;
+    color: #878787;
+    margin-bottom: 30px;
+}
+
+.ContactBoxes {
+    width: 50%;
+}
+
+.ContactInfo {
+    display: flex;
+    flex-direction: row;
+    background-color: #ededed;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.Qrcode {
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ContactIcon {
+    width: 50px;
+    margin-right: 30px;
+}
+
+.AboutContactInfo {
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: lighter;
+    color: #878787;
+}
+
+.Rodape {
+    margin-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #575756;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.RodapeAbout {
+    color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.RodapeImg {
+    width: 50px;
+}
