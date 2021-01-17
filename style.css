@@ -297,6 +297,7 @@ body {
 
 .ContactBoxes {
     width: 50%;
+    min-width: 450px;
 }
 
 .ContactInfo {
@@ -350,4 +351,86 @@ body {
 
 .RodapeImg {
     width: 50px;
+}
+
+.Pictures {
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+    row-gap: 5px; 
+}
+
+.f5 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f6 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f12 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f18 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f14 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f2 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f4 { 
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f3 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f13 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+.f28 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f7 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f17 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f1 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.f23 {
+    width: 100% !important;
+    height: auto !important;
 }
