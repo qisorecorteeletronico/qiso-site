@@ -109,6 +109,7 @@ body {
 .OrcamentoBtt {
     margin-top: 20px;
     margin-bottom: 10px;
+    padding-top: 4px;
     width: 80%;
     height: 40px;
     background-color: #ea531c;
