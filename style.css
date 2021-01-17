@@ -147,7 +147,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .BttToPage {
@@ -167,6 +167,7 @@ body {
 
 .IconImage {
     width: 70%;
+    max-width: 200px;
     margin-top: -200px;
 }
 
