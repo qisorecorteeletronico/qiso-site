@@ -13,7 +13,7 @@
 
     <body>
         <div id='Menu' class='Menu'>
-            <img class='Logo' src='images/LogoLight.svg' />
+            <a href='#Home'><img class='Logo' src='images/LogoLight.svg' /></a>
             <div class='Options'>
                 <a class='Link' href='#Home'><ul class='Opt'>HOME</ul></a>
                 <div class='MenuDivider'></div>
@@ -33,23 +33,23 @@
             <div class='Item2Banner'>
                 <h1 class='Title'>VOCÊ IMAGINA<br>E A GENTE CRIA!</h1>
                 <h2 class='Subtitle'>CONTE COM A QUALIDADE<br>E A EXPERIÊNCIA DOS NOSSOS<br>SERVIÇOS</h2>
-                <button class='OrcamentoBtt'>FAZER ORÇAMENTO</button>
+                <button class='OrcamentoBtt' onclick="window.location.href='#Contato'">FAZER ORÇAMENTO</button>
                 <p class='SemCompromisso'>SEM COMPROMISSO</p>
             </div>
         </div>
 
         <div class='BttsToPages'>
-            <button class='BttToPage'>
+            <button class='BttToPage' onclick="window.location.href='#Empresa'">
                 <img class='IconImage' src='images/A empresa icon.svg'/>
                 <h1 class='BttTitle'>A EMPRESA</h1>
                 <h2 class='BttSubtitle'>Saiba mais da <b>Qiso?</b><br>e conheça mais a gente!</h2>
             </button>
-            <button class='BttToPage'>
+            <button class='BttToPage' onclick="window.location.href='#Portifolio'">
                 <img class='IconImage' src='images/Portifolio icon.svg'/>
                 <h1 class='BttTitle'>PORTIFÓLIO</h1>
                 <h2 class='BttSubtitle'>Conheça os nossos<br>serviços em recorte eletrônico!</h2>
             </button>
-            <button class='BttToPage'>
+            <button class='BttToPage' onclick="window.location.href='#Contato'">
                 <img class='IconImage' src='images/Contato icon.svg'/>
                 <h1 class='BttTitle'>CONTATO</h1>
                 <h2 class='BttSubtitle'>Estamos prontos<br>para atender você!</h2>
@@ -106,40 +106,45 @@
             <div class='DivTitle'><div class='Separator'></div><h1 class='DivTitleText'>CONTATO</h1></div>
             <p class='ContatoText'>A <b>Qiso?</b> está pronta para atender você!</p>
             
-            <div class='ContactBoxes'>
-                <div class='ContactInfo'>
-                    <a href='https://wa.me/message/QGQFT453OM3YC1' target="_blank"><img class='Qrcode' src='images/QR Whatsapp.png'/></a>
-                    <a href='https://wa.me/message/QGQFT453OM3YC1' target="_blank"><img class='ContactIcon' src='images/WhatsappIconDark.svg'/></a>
-                    <p class='AboutContactInfo'>(21) 99656-0397</p>
+            <div class='ContactArea'>
+
+                <div class='ContactBoxes'>
+                    <div class='ContactInfo'>
+                        <a href='https://wa.me/message/QGQFT453OM3YC1' target="_blank"><img class='Qrcode' src='images/QR Whatsapp.png'/></a>
+                        <a href='https://wa.me/message/QGQFT453OM3YC1' target="_blank"><img class='ContactIcon' src='images/WhatsappIconDark.svg'/></a>
+                        <p class='AboutContactInfo'>(21) 99656-0397</p>
+                    </div>
+
+                    
+                    <div class='ContactInfo'>
+                        <img class='Qrcode' src='images/QR E-mail.png'/>
+                        <img class='ContactIcon' src='images/EmailIconDark.svg'/>
+                        <p class='AboutContactInfo'>contatoqiso@gmail.com</p>
+                    </div>
+
+                    
+                    <div class='ContactInfo'>
+                        <a href='http://www.facebook.com/qiso.oficial' target="_blank"><img class='Qrcode' src='images/QR Facebook.png'/></a>
+                        <a href='http://www.facebook.com/qiso.oficial' target="_blank"><img class='ContactIcon' src='images/FacebookIconDark.svg'/></a>
+                        <p class='AboutContactInfo'>@Qiso.Oficial</p>
+                    </div>
+
+                    
+                    <div class='ContactInfo'>
+                        <a href='http://www.instagram.com/qiso.oficial' target="_blank"><img class='Qrcode' src='images/QR Instagram.png'/></a>
+                        <a href='http://www.instagram.com/qiso.oficial' target="_blank"><img class='ContactIcon' src='images/InstagramIconDark.svg'/></a>
+                        <p class='AboutContactInfo'>@Qiso.Oficial</p>
+                    </div>
                 </div>
 
-                
-                <div class='ContactInfo'>
-                    <img class='Qrcode' src='images/QR E-mail.png'/>
-                    <img class='ContactIcon' src='images/EmailIconDark.svg'/>
-                    <p class='AboutContactInfo'>contatoqiso@gmail.com</p>
-                </div>
+                <img class='Marca' src='images/LogoCinza.svg'/>
 
-                
-                <div class='ContactInfo'>
-                    <a href='http://www.facebook.com/qiso.oficial' target="_blank"><img class='Qrcode' src='images/QR Facebook.png'/></a>
-                    <a href='http://www.facebook.com/qiso.oficial' target="_blank"><img class='ContactIcon' src='images/FacebookIconDark.svg'/></a>
-                    <p class='AboutContactInfo'>@Qiso.Oficial</p>
-                </div>
-
-                
-                <div class='ContactInfo'>
-                    <a href='http://www.instagram.com/qiso.oficial' target="_blank"><img class='Qrcode' src='images/QR Instagram.png'/></a>
-                    <a href='http://www.instagram.com/qiso.oficial' target="_blank"><img class='ContactIcon' src='images/InstagramIconDark.svg'/></a>
-                    <p class='AboutContactInfo'>@Qiso.Oficial</p>
-                </div>
             </div>
-
         </div>
 
         <div class='Rodape'>
             <p class='RodapeAbout'>Q iso? - Recorte eletrônico em EPS</p>
-            <img class='RodapeImg' src='images/Item1Banner.svg'/>
+            <a href='#Home'><img class='RodapeImg' src='images/Item1Banner.svg'/></a>
         </div>
 
     </body>

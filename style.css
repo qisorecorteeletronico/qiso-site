@@ -338,6 +338,17 @@ body {
     text-decoration: none;
 }
 
+.ContactArea {
+    display: flex;
+    flex-direction: row;
+}
+
+.Marca {
+    width: 30%;
+    align-self: center;
+    margin-left: 50px;
+}
+
 .Rodape {
     margin-top: 100px;
     padding-right: 200px;
