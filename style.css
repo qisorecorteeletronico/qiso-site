@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -7,6 +11,10 @@ body {
 @media only screen and (min-device-width: 900px) {
     .BttTitle { color:white; } 
 }*/
+
+.Link {
+    text-decoration: none;
+}
 
 .Menu {
     z-index: 999;
@@ -19,6 +27,7 @@ body {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, .5);
+    transition: .5s;
 }
 
 .Logo {
@@ -40,7 +49,6 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    
 }
 
 .Opt:hover {
