@@ -152,6 +152,21 @@
         border-radius: 10px;
     }
 
+    .AboutBoxTitle {
+        font-family: 'Century Gothic';
+        font-size: 35px;
+        font-weight: lighter;
+        color: #0A2337;
+    }
+    
+    .AboutBoxText {
+        text-align: center;
+        font-family: 'Century Gothic';
+        font-size: 25px;
+        font-weight: lighter;
+        color: #878787;
+    }
+
     .BttTitle {
         font-family: 'Bebas Neue';
         font-weight: 100;
@@ -249,7 +264,7 @@
     
     .AboutContactInfo {
         font-family: 'Century Gothic';
-        font-size: 22px;
+        font-size: 25px;
         font-weight: lighter;
         color: #878787;
         text-decoration: none;
