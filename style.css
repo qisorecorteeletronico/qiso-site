@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    transition: .5s;
 }
 
 body {
@@ -33,6 +34,11 @@ body {
 .Logo {
     width: 70px;
     margin-left: 200px;
+    transition: .5s;
+}
+
+.LogoDiv {
+    transition: .5s;
 }
 
 .Options {
@@ -351,6 +357,7 @@ body {
     width: 40%;
     align-self: center;
     margin-left: 50px;
+    max-height: 400px;
 }
 
 .Rodape {
@@ -464,3 +471,8 @@ body {
 .MarginTop {
     margin-bottom: 80px;
 }
+
+.MenuButton {
+    display: none;
+}
+

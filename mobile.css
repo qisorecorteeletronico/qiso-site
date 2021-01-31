@@ -1,0 +1,261 @@
+@media screen and (max-width: 1023px) {
+    html {
+       /*padding: 0 2.4em 0 2.4em;*/
+       background-color: white;
+       transition: .5s;
+       scroll-behavior: smooth;
+    }
+
+    .Menu {
+        z-index: 999;
+        background-color: #0A2337;
+        position: fixed;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, .5);
+        transition: .5s;
+    }
+
+    .MenuButton {
+        display: block;
+        background-color: transparent;
+        border-color: transparent;
+        margin-right: 100px;
+    }
+
+    .MenuButton:focus {
+        border-width: 0px;
+        outline: 0px
+    }
+    
+    .Logo {
+        width: 120px;
+        transition: .5s;
+    }
+
+    .LogoDiv {
+        margin-left: calc(50% - 235px);
+        transition: .5s;
+    }
+    
+    .Options {
+        display: none;
+    }
+
+    .Banner {
+        z-index: 0;
+        padding-top: 100px;
+        background-image: url('images/BANNER SITE MOBILE.png');
+        background-size: 100%;
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Item1Banner {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 350px;
+        margin-left: calc(50% - 300px);
+        align-self: center;
+    }
+
+    .Item2Banner {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .BttsToPages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 100%;
+    }
+
+    .BttToPage {
+        width: 100%;
+        height: 300px;
+        border-width: 0px;
+        border-radius: 10px;
+        background-color: #ededed;
+        background-size: 100px;
+        margin: 10px;
+        margin-top: 150px;
+    }
+
+    .BttTitle {
+        font-family: 'Bebas Neue';
+        font-weight: 100;
+        font-size: 35px;
+        color: #0A2337;
+    }
+    
+    .BttSubtitle {
+        font-family: 'Century Gothic';
+        font-size: 25px;
+        font-weight: lighter;
+        color: #878787;
+    }
+
+    .AEmpresa {
+        padding: 0px 100px 0px 100px;
+        margin-top: 50px;
+    }
+
+    .DivTitleText {
+        font-family: 'Century Gothic';
+        font-size: 45px;
+        font-weight: lighter;
+        color: #f9b233;
+    }
+    
+    .TextAbout {
+        font-family: 'Century Gothic';
+        font-size: 24px;
+        font-weight: lighter;
+        color: #878787;
+    }
+
+    .Boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .AboutBox {
+        margin-top:20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #ededed;
+        border-radius: 10px;
+    }
+
+    .BttTitle {
+        font-family: 'Bebas Neue';
+        font-weight: 100;
+        font-size: 45px;
+        color: #0A2337;
+    }
+    
+    .BttSubtitle {
+        font-family: 'Century Gothic';
+        font-size: 25px;
+        font-weight: lighter;
+        color: #878787;
+    }
+
+    .Title {
+        color: white;
+        font-family: 'Bebas Neue';
+        font-weight: 100;
+        font-size: 70px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .Title {
+        color: white;
+        font-family: 'Bebas Neue';
+        font-weight: 100;
+        font-size: 50px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .Subtitle {
+        color: white;
+        font-family: 'Century Gothic';
+        font-size: 25px;
+        font-weight: 100;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .OrcamentoBtt {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding-top: 4px;
+        width: 350px;
+        height: 80px;
+        background-color: #ea531c;
+        border-width: 0px;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Bebas Neue';
+        font-weight: 100;
+        font-size: 45px;
+        box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, .5);
+        transition: .5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .SemCompromisso {
+        color: white;
+        font-family: 'Century Gothic';
+        font-size: 20px;
+        font-weight: 50;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .ContactArea {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ContactBoxes {
+        width: 100%;
+        min-width: 450px;
+    }
+
+    .ContatoText {
+        font-family: 'Century Gothic';
+        font-size: 25px;
+        font-weight: lighter;
+        color: #878787;
+        margin-bottom: 30px;
+    }
+    
+    .AboutContactInfo {
+        font-family: 'Century Gothic';
+        font-size: 22px;
+        font-weight: lighter;
+        color: #878787;
+        text-decoration: none;
+    }
+
+    .Marca {
+        display: none;
+    }
+}
