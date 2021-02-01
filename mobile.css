@@ -260,7 +260,7 @@
         position: fixed;
         right: 0;
         z-index: 9999;
-        background-color: rgba(255, 255, 255, .2);
+        background-color: rgba(255, 255, 255, .9);
         margin-top: 140px;
         margin-right: 10px;
         padding: 10px;
@@ -268,11 +268,13 @@
         width: calc(50% - 10px);
         justify-content: center;
         align-items: center;
+        box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, .5);
+        height: 60vh;
     }
 
     .MenuFlutuanteItem {
         font-family: 'Century Gothic';
-        font-size: 40px;
+        font-size: 45px;
         font-weight: lighter;
         color: #0A2337;
         text-decoration: none;
@@ -281,7 +283,7 @@
     }
 
     .MarcaFlutuante {
-        width: 200px;
+        width: 300px;
         margin-bottom: 50px;
     }
 

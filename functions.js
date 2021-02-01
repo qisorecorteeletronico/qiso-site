@@ -19,9 +19,9 @@ document.addEventListener("scroll", function(){
 document.addEventListener("scroll", function(){
 
     if(document.documentElement.scrollTop > 1200 - 120){
-        document.getElementById('MenuFlutuante').style.backgroundColor = 'rgba(0, 0, 0, .2)'
+        document.getElementById('MenuFlutuante').style.backgroundColor = 'rgba(255, 255, 255, .75)'
     }else{
-        document.getElementById('MenuFlutuante').style.backgroundColor = 'rgba(255, 255, 255, .2)'
+        document.getElementById('MenuFlutuante').style.backgroundColor = 'rgba(255, 255, 255, .9)'
     }
 })
 
