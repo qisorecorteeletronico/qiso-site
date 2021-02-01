@@ -28,8 +28,8 @@ document.addEventListener("scroll", function(){
 function showMenu() {
 
     var currentDisplay = document.getElementById('MenuFlutuante').style.display
- 
-    if(currentDisplay == 'none'){
+    
+    if(currentDisplay == 'none' || currentDisplay == ''){
         document.getElementById('MenuFlutuante').style.display = 'flex'
     }else {
         document.getElementById('MenuFlutuante').style.display = 'none'
