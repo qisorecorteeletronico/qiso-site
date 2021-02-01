@@ -121,6 +121,15 @@
         color: #878787;
     }
 
+    .AboutPortBottom {
+        text-align: center;
+        font-family: 'Century Gothic';
+        font-size: 20px;
+        font-weight: lighter;
+        color: #0A2337;
+        margin-right: 20px;
+    }
+
     .Boxes {
         display: flex;
         flex-direction: column;
@@ -244,10 +253,21 @@
     
     .AboutContactInfo {
         font-family: 'Century Gothic';
-        font-size: 25px;
+        font-size: 35px;
         font-weight: lighter;
         color: #878787;
         text-decoration: none;
+    }
+
+    .ContactInfo {
+        display: flex;
+        flex-direction: row;
+        background-color: #ededed;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 10px;
     }
 
     .Marca {
@@ -275,6 +295,11 @@
     .SocialIconFlutuante {
         width: 60px;
         margin: 10px;
+    }
+
+    .SocialIconPortBottom {
+        width: 60px;
+        margin: 5px;
     }
 
     .MenuFlutuanteItem {
